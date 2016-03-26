@@ -1,0 +1,1 @@
+<div class="important"> Une erreur non-attendue est survenue ! <br /> Veuillez réessayer votre action ou contacter le gérant de ce site. </div>

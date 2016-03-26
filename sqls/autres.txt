@@ -1,0 +1,17 @@
+Autres colonnes :
+
+Vérifiez dans votre table accounts si vous avez bien les colonnes "points" , "vote" , et "heurevote"
+Si vous ne les avez pas, faites Ctrl + D (dans votre table accounts) et ajoutez ces 3 colonnes:
+
+Name    |  Type | Length 
+points	   int	    11	
+vote	   int	    11	
+heurevote  bigint   100	
+
+
+Ajoutez dans la table item_db de la db other une colonne "boutique" :
+
+Name     | Type | Length
+boutique   int      100
+
+/!\ Pour ajouter un item en boutique, sa ligne doit être présente dans la table item_db /!\

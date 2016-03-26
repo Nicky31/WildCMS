@@ -1,0 +1,1 @@
+<div class="success"> Inscription réussie ! </div>

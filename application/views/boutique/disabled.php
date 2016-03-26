@@ -1,0 +1,1 @@
+<div class="important">La boutique est désactivée !</div>

@@ -1,0 +1,1 @@
+<div class="important"> Vous n'avez pas assez de points pour acheter cet objet ! </div>

@@ -1,0 +1,1 @@
+<div class="important"> <b><?php echo $pseudo; ?></b> est <u>déjà</u> enregistré en tant que membre du staff ! </div>

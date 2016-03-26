@@ -1,0 +1,1 @@
+<div class="important"> Aucun résultat n'a été trouvé pour <b> <?php echo $search; ?> </b></div>

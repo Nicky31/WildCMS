@@ -1,0 +1,1 @@
+<div class="important"> <b><?php echo $accountsCount; ?></b> comptes et <b><?php echo $persosCount; ?></b> persos inactifs depuis le <b> <?php echo $date; ?> </b> ont été supprimés </div>

@@ -1,0 +1,1 @@
+<div class="success"> Objet acheté avec succès ! </div>

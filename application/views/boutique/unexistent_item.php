@@ -1,0 +1,1 @@
+<div class="important"> L'item demandé est introuvable dans la table item_db. Veuillez vérifier l'ID de l'item ou ajouter sa ligne dans <b>item_db</b>. </div>

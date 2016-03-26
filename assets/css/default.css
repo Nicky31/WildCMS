@@ -1,0 +1,96 @@
+/* 
+#
+- AUTEUR : Shaaakaaa (alias Celthium)
+- SKYPE : arrow59470 
+- EMAIL : celthium@gmail.com
+#
+*/
+ 
+body {background: url("../images/fond.png") #3a261b repeat;margin: auto;font-family: verdana;color: white;}
+#header {width: 1000px;height: 324px;background: url("../images/header.png") no-repeat;margin: 0 auto;}
+#footer {width: 1000px;height: 91px;background: url("../images/footer.png") no-repeat;margin : 0 auto;}
+.clear {clear: both;visibility: hidden;}
+#content {width: 1000px;background: url("../images/content.png") repeat-y;margin : 0 auto;}
+#panel {background-color: #281b13;-moz-opacity:0.5;opacity: 0.5;filter:alpha(opacity=50);margin-left: 75px;width: 235px;font-size: 10px;padding-left: 5px;}
+#left {width: 202px;float: left;margin: 0 0 0 87px;}
+#right {width: 202px;float: right;margin: 0 82px 0 0;}
+#middle {width: 400px;float: left;margin: 0 0 0 12px;}
+.login {color: #fff;width: 140px;margin-top: 2px;background-color: #202020;border: 0px solid black;width: 190px;height: 25px;border-radius: 3px;padding-left: 5px;}
+.login2 {background: url("../images/menu.png") repeat-x scroll 0 0 #2A2A2A;border: 1px solid #1C1C1C;list-style: none outside none;margin: -1px auto;padding: 5px;width: 130px;color: #E0E0E0;position: relative;font-size: 10px;text-align: center;}
+.login2 : hover { border-color: #ed7f10; color: orange;}
+.important {margin: 0 12px 0 12px;padding: 5px;font-size: 11px;color: red;background-color: #ffa2a2;border: 1px solid red;text-align:center;}
+.success {margin: 0 12px 0 12px;padding: 5px;font-size: 11px;color: green;background-color: #54f98d;border: 1px solid green;text-align:center;}
+label {margin-left: 89px;font-size: 11px;}
+#corps {width: 1000px;background: url("../images/corps.png") repeat-y;margin: auto;}
+#bg_class {background: url("../images/bg_class.png") no-repeat;width: 139px;height: 139px;}
+li:hover ul.li2 {display: block;}
+.liBright {background-color:rgb(222,208,179); }
+ul.li2 {display: none;position: absolute;left: 142px;top: -0px;margin: 0px;padding: 0px;z-index: 2;}
+
+.copy {padding-top: 42px;padding-left: 100px;font-size: 10px;color: #674f37;}
+.copy a:link {color: #674f37;text-decoration: none;font-weight: bold;}
+.copy a:visited {color: #674f37;text-decoration: none;font-weight: bold;}
+
+/* TITLE */
+.titleNormal {background: url("../images/titleNews.png") no-repeat;margin: auto 10px;width: 379px;height: 25px;font-size: 11px;padding-top: 5px;color: white;text-align: center;}
+.titleNews {background: url("../images/titleNews.png") no-repeat;margin: auto 10px;width: 379px;height: 25px;font-size: 11px;padding-left: 10px;padding-top: 5px;color: white;text-align: left;}
+.titleNewsName {background: url("../images/titleNewsName.png") no-repeat;width: 114px;height: 20px;margin: -10px 23px auto auto;font-size: 9px;color: white;text-align: left;padding-left: 5px;padding-top: 3px;}
+.subtitle {color: rgb(198,150,67); color: rgb(245,219,116); font-size:140%; font-family: Trebuchet MS;  }
+
+/* TD */
+td {background-color: #202020;padding: 4px;font-size: 11px;color: white;border-radius: 3px;}
+.profilTd {background: url("../images/menu.png") repeat-x #2A2A2A;height:30px;width:150px;text-align: center;font-weight: bold;}
+
+/* MENU */
+.menuc_content li {background: url("../images/menu.png") repeat-x scroll 0 0 #2A2A2A;border: 1px solid #1C1C1C;list-style: none outside none;margin: -1px auto;text-shadow: 0 1px black;padding: 6px;width: 130px;color: #E0E0E0;position: relative;font-size: 10px;text-align: center;}
+.menuc_content li:hover {background: url("../images/menu.png") repeat-x #383838;}
+.menuc_txt_up {width: 180px;color: black;font-family: verdana;font-size: 12px;padding-top: 10px;text-shadow: 0 1px #3F3F3F;text-align: center;}
+.menuc_up {width: 180px;height: 29px;background: url("../images/menuc_up.png") no-repeat top;margin-left: 10px;margin-top: -7px;}
+.menuc_content {width: 180px;background: url("../images/menuc_content.png") repeat-y;padding: 10px 0 6px 0;margin-left: 10px;}
+.menuc_bottom {width: 180px;height: 12px;background: url("../images/menuc_bottom.png") no-repeat top;margin-left: 10px;margin-bottom: 10px;}
+.menuc_bottom2 {width: 180px;height: 12px;background: url("../images/menuc_bottom.png") no-repeat top;margin-left: 10px;}
+.menu_up {width: 202px;height: 13px;background: url("../images/menu_header.png") no-repeat top;}
+.menu_content {width: 202px;background: url("../images/menu_content.png") repeat-y;padding-top:5px;}
+.menu_bottom {width: 202px;height: 13px;background: url("../images/menu_footer.png") no-repeat top;}
+
+/* LINKS */
+a:link {color: white;text-decoration: none;}
+a:visited {color: white;}
+a:hover {color: gray;} 
+ac:link {color: #646464;text-decoration: none;}
+ac:visited {color: #646464;}
+ac:hover {color: gray;}
+
+/* CONTENT */
+.c-up {background: url("../images/content_up.png");width: 400px;height: 18px;margin: 0 auto;}
+.c-content {font-size: 12px;background: url("../images/content_content.png");width: 400px;margin: 0 auto; }
+.c-bottom {background: url("../images/content_bottom.png");width: 400px;height: 13px;margin: 0 auto;}
+.c-up .title {font-size: 12px;width: 400px;padding-top: 15px;text-align: center;}
+.c-content .text {font-size: 12px; width: 370px;padding-bottom: 10px;margin: auto;}
+
+/* BOUTIQUE */
+.item { background-color: rgb(196,181,138); width: 360px; border-radius:3px; padding:3px 7px 3px 7px; }
+.item .name { color: #FEF5E3; font-size: 18px; font-weight: normal; margin-bottom: 15px; margin-left: -2px; display:inline; }
+.item .level { color: #FEF5E3; float: right; font-size: 12px; font-weight: bold; }
+.item .cadre { background-color: rgb(246,237,220); margin:5px; padding:3px; border-radius:2px; }
+.item .cadre .title { font-size: 12px; color:rgb(100,52,13); font-weight:bold; }
+.item li { color: #000000; font-size: 13px; padding-left: 7px; list-style-type:none; }
+.list1 { background-color: #DED0B3; }
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#
+- AUTEUR : Shaaakaaa (alias Celthium)
+- SKYPE : arrow59470 
+- EMAIL : celthium@gmail.com
+#
+*/

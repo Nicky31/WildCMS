@@ -1,0 +1,1 @@
+<div class="success"> Element supprimé avec succès !</div>

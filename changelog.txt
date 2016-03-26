@@ -1,0 +1,74 @@
+														Changelog WildCMS v0.5
+												  codé avec le framework CodeIgniter
+													Débuté le Vendredi 20 Juiller 2012
+													
+___________________________________________________________________________________________________________________________________________________________________													
+
+													-- // Fonctionnalités // --								  
+													
+- Connection / déconnection , espace membre & admin
+- News
+   => Affichage avec pagination ( pagination configurable dans application/config/config.php partie WildCMS )
+   => Delete
+   => Ajout	
+   => Edit   
+- Page "Mon Compte"
+   => Affichage & modification du ndc / pseudo / email / question secrete / mdp (non affiché) + affichage des pts
+- Inscription
+- Nous rejoindre
+- Page informations
+- Page gestion des comptes
+- Page Staff
+   => Affichage du staff
+   => Delete d'un membre du staff panel admin
+   => Ajout d'un membre du staff panel admin => /!\ BUG /!\
+- Classements Persos / Guildes / Voteurs
+- Livre d'Or
+- Vote sécurisé contre mulage vote
+- Boutique
+   => Affichage items boutique avec nom / level / effets 
+   => Achat : possibilité de choisir jet aléatoire ou parfait (prix multiplié par un facteur déterminé dans la config pour parfait)
+   => Historique de tous les achats avec id compte / id perso / type d'achat / id item / date
+   => Admin: Ajout d'item + Listage items & delete possible
+
+											-- // Journal de travail ; les versions // --								   
+
+[V.0.5]
+- Boutique
+   => Affichage items boutique avec nom / level / effets 
+   => Achat : possibilité de choisir jet aléatoire ou parfait (prix multiplié par un facteur déterminé dans la config pour parfait)
+   => Historique de tous les achats avec id compte / id perso / type d'achat / id item / date
+   => Admin: Ajout d'item + Listage items & delete possible
+- Ajout colonne emblème sur ladder guildes
+
+[V.0.4]
+- Livre d'Or OK [Affichage + Delete pour admins]
+- Création d'un helper "various_helper" pour contenir les diverses fonctions inclassables & fréquemment utilisées
+- Mise à jour de lastIP lors de l'inscription & à chaque chargement d'une page (lib layout)
+- Vote OK avec sécurité contre multi comptes
+- Codage du helper item pour la boutique  
+   => Gestion de 28 éléments pour l'affichage des statistiques
+   => Affichage des skins direct via swf  || Attention : Nombreux skins autres qu'items stuff manquants
+
+[V.0.3]
+- Page Infos OK  [Affiche texte introductif configurable, type serveur, rates, nbre comptes / persos, neutres/anges/demons/serianes avec pourcentage / perso, nbre classes avec % sur persos]
+- Ajout d'une condition autour de la fonction view de la lib layout pour être sûr qu'elle ne soit appellée qu'une fois (éviter double page). Utiliser views pour appeller plusieurs vues.
+- Page admin Gestion des comptes OK [Affiche liste comptes avec liens pour obtenir  + d'infos sur les comptes, recherche de comptes avec ndc  / account / IP , nettoyage des comptes jamais connectés & inactifs depuis X date]
+- Page staff OK, delete staff OK, bug sur l'ajout d'un staff à régler
+- Classement persos / guildes / voteurs OK
+
+[V.0.2]
+- Mise en place du dossier errors dans le répertoire views contenant toutes les vues des erreurs fréquentes
+- Delete + Ajout + Edit news OK 
+   => News terminées, manque que les commentaires
+- Page Mon compte OK 
+   => Affichage ndc , pseudo, email , question , pts. Possibilité de modifier ndc / pseudo / email / question / mdp avec validation auto HTML5 sur les forms
+- Inscription OK
+- Nous rejoindre OK 
+
+[V.0.1]
+- Intégration du design by CELTHIUM
+- Codage de la librairie layout pour intégrer le template (merci le SdZ :p)
+- Codage d'une classe mère des models MY_Model pour intégrer les fonctions de base (select / delete / count / update / insert) (merci le SdZ :p)
+- Affichage des news OK
+- Connection + déconnection OK ( Utilisation des sessions de CodeIgniter, avec stockage sur table ci_sessions )

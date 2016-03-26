@@ -1,0 +1,1 @@
+<div class="important"> Le mot de passe est trop petit / grand ou contient des caractères interdits </div>

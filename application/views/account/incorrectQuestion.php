@@ -1,0 +1,1 @@
+<div class="important"> La question ou la réponse est trop petite / grande .</div>

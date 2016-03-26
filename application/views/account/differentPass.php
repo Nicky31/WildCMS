@@ -1,0 +1,1 @@
+<div class="important"> Les deux mots de passes sont différents ! </div>

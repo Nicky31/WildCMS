@@ -1,0 +1,1 @@
+<div class="important"> Le nom de compte est trop petit / grand ou contient des caractères interdits </div>

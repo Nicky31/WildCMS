@@ -1,0 +1,1 @@
+<div class="success"> Comptes jamais connectés supprimés ! (<b> <?php echo $count; ?> </b>) </div>
